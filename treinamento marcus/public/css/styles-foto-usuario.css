@@ -1,0 +1,9 @@
+body {
+    font-size: .875rem;
+    background-color: red;
+  }
+
+#foto-view{
+    width: 200px !important;
+    
+  }

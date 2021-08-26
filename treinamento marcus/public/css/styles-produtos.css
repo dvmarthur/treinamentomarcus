@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.produtos{
+    margin: calc( 5% * 2) 0;
+    min-height: 494px;
+}
+
+.botao-busca{
+    border-color: #021b3b !important;
+    color: black !important;
+}
+.botao-busca:hover{
+    background-color: #021b3b !important;
+    color: white !important;
+}
+.pag-ancora{
+    color: #021b3b !important;
+}
+.zoom{
+    overflow: hidden ;
+}
+.zoom img{
+    max-width: 100%;
+    min-width: 50px;
+    transition: all 0.3s;
+}
+.zoom img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.btn-link-produto{
+    background-color: transparent !important;
+}
+.img-produto{
+    min-width: 260px;
+}

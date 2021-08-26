@@ -1,0 +1,95 @@
+body{
+    background-color: #021b3b !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.carousel img {
+    max-height: 400px;
+}
+
+
+.ofertas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ofertas h1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+.Lista{
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+.card{
+    width: 200px  !important;
+}
+
+footer{
+    border-top:10px solid rgb(180, 33, 33);
+    border-radius: 5px;
+}
+
+.zoom{
+    overflow: hidden ;
+}
+.zoom img{
+    max-width: 70%;
+    transition: all 0.3s;
+}
+.zoom img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.logo{
+	width: 20%;
+	padding-left: 5%;
+}
+.navchanges{
+	font-size: 18px;
+	background-color: #021b3b !important;
+}
+.textnavbar {
+	padding-left: 52%;
+	padding-top: 3%;	
+	margin-bottom: 3%;
+}
+
+.navbar{
+    border-bottom:10px solid rgb(180, 33, 33);
+    border-radius: 5px;
+}
+
+.img2{
+	width: 80% ;
+	padding-top: 8%;	
+}
+
+@media (max-width: 1000px){
+	.logo{
+		width:40%;
+	}
+	.textnavbar{
+		padding-left: 3%;
+		padding-top: 2%;
+	}
+
+    .carousel.slide {
+        max-height: 400px;
+        width: 100%;
+    }
+
+    .ofertas h1{
+        font-size: 20px;
+        
+    }
+
+}

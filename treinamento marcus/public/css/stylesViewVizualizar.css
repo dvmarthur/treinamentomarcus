@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+    /* background-color: #021b3b; */
+}
+
+.caminho{
+    background-color: #FF1616 !important;
+}
+
+
+.caminho-link{
+    color: white !important;
+}
+
+
+.conteudo{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.slide{
+    /* Solução prévia */
+    height: 250px;
+}
+.carousel-control-next,
+.carousel-control-prev, .carousel-indicators {
+    filter: invert(100%);
+}
+
+.botao-comprar{
+    background-color: #021b3b;
+    border-color: #021b3b;
+    transition: 500ms;
+}
+
+.botao-comprar:hover{
+    background-color: #042c61;
+}
+
+.barras{
+    background-color: #FF1616;
+    color: white;
+}
+
+.barras-header{
+    background-color: #021b3b;
+}
+
+.barras-header button{
+    color: white !important;
+}
+
+.xadrez p{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+    color: black;
+}
+
+.xadrez p:nth-child(2n + 1){
+    background-color: white !important;
+    color: black;
+    
+}

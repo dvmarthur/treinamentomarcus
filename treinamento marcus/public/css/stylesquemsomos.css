@@ -1,0 +1,135 @@
+
+
+.equipegeral {
+    display: flex;
+    border-top: grey solid 3px;
+    
+}
+.imgequipe {
+    width: 40%;
+    padding-left:5% ;
+    padding-top:2%;
+    padding-bottom:2%; 
+}
+.quemsomostexto {
+    width: 59%;
+}
+.quemsomostexto h1{
+    
+    padding-top:5%;
+    text-align: center;    
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+.quemsomostexto p{
+    font-family: 'Roboto', sans-serif;
+    padding-right:5%;
+    text-indent: 10px;
+    padding-bottom: 7%;
+    margin-left: 10px;
+    text-align: justify;
+}
+.valores h1{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3%;  
+    border-top: grey solid 3px;   
+    text-align: center;    
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+.valores img{
+    float:right;
+    padding-right:5% ;
+    padding-top:1%;
+    padding-bottom:3%;
+}
+.valores ul{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom:5%;
+}
+.nossaloja h1{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3%;   
+    padding-bottom:3%;
+    border-top: grey solid 3px;
+    text-align: center;    
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+.nossaloja img {    
+    padding-left:1%;
+    padding-right:1% ;
+    width: 33%;
+    height: 33%;
+    padding-bottom:3%;  
+}
+.gps img{
+    width: 5%;   
+}
+.gps h1{
+    border-top: grey solid 3px;
+    font-family: 'Roboto', sans-serif;
+    color:grey;
+    text-align:center;
+    padding-top: 3%;
+    padding-bottom:2%;
+}
+.gps h2 {   
+    padding-left:10%;
+    padding-top:1%;
+    color:blue;   
+}
+.gps iframe {   
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width: 1000px) {
+    
+    .equipegeral {
+        display: block;
+    }
+    .quemsomostexto{
+        width: 99%;
+    }
+    .imgequipe {
+        width: 99%;
+    }
+    .quemsomostexto h1{
+        text-align: center;
+    }
+    .quemsomostexto p{
+        padding-left:3%;       
+    }
+    .valores h1{
+        text-align: center;
+        padding-right:0 ;
+    }
+    .nossaloja {
+        margin: auto;
+    }
+    .nossaloja img {       
+        width: 80%;
+        margin:auto;
+    }
+    .nossaloja {
+        text-align: center;        
+    }
+    .gps h2 {
+        font-size:15px;
+        text-align: center;        
+    }
+    .gps {
+        
+        text-align: center;
+    }
+    .h2imagem {
+        display: flex;
+        margin: auto;        
+    }
+    .h2imagem img {
+        width: 20px;
+        height: 20px;
+    }
+
+}

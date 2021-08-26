@@ -1,0 +1,41 @@
+body{
+    background-color: #f8f9fa;;
+}
+.container{
+    width: 60%; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 6%;
+    padding-bottom: 5%;
+}
+.mapa{
+    padding-top: 4%;
+}
+.mapa h1{
+    text-align: center;
+    color: #021b3b;
+    font-size:30px;  
+    padding-bottom:2%;
+}
+.formulario{
+    color:red;
+}
+.containermapa{
+    background-color: white;
+    text-align: center; 
+    padding-bottom: 8%;
+    
+}
+.mensagem{
+    text-align: center;
+    font-size: 18px;
+}
+@media(max-width: 1000px){
+    .mapa h1{
+        font-size: 16px;   
+    }
+    .mapa iframe{ 
+        width:95%;
+        height: 70%;   
+    }
+}
